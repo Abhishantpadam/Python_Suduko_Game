@@ -61,10 +61,10 @@ def generate_puzzle(board, difficulty):
     else:
         # Remove 50 numbers from the board
         remove_count = 60
-    """################################################"""
+    
     board = generate_board()
     fill_board(board)
-    """################################################"""
+   
     # Create a copy of the board
     puzzle = [row[:] for row in board]
     # Randomly remove numbers from the board until the desired difficulty level is reached
